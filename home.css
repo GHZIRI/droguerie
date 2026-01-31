@@ -1,0 +1,109 @@
+/* ===== General Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8; /* خلفية فاتحة */
+    color: #333; /* لون النص */
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Header ===== */
+h1 {
+    background-color: #1F4E79; /* أزرق غامق */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background-color: #4D4D4D; /* رمادي غامق */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #E67E22; /* برتقالي عند المرور */
+}
+
+/* ===== About Section ===== */
+#about {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ===== Products Section ===== */
+#products {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#products ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#products li {
+    margin-bottom: 8px;
+}
+
+/* ===== Why Choose Us Section ===== */
+#why-choose-us {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#why-choose-us ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+#why-choose-us li {
+    margin-bottom: 8px;
+}
+
+/* ===== Call to Action ===== */
+#call-to-action {
+    background-color: #1F4E79; /* أزرق غامق */
+    color: white;
+    padding: 20px;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#call-to-action p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
